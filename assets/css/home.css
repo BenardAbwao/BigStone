@@ -10,18 +10,19 @@ body{
     background-size: cover;
 }
 .container{
-    max-width: 1300px;
     padding: 20px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #3A4750;
+    width: 100%;
 }
 .logo{
     font-size: 35px;
-    color: #fff;
+    color: #FF8D29;
 }
 .navbar-menu a{
-    color: #ffff;
+    color: white;
     font-size: 13px;
     font-family: 'Raleway' , sans-serif;
     font-weight: 100;
@@ -29,7 +30,12 @@ body{
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    transition: 0.4s;
+}
+.navbar-menu button{
+    background-color: #F6C90E;
+    font-size: larger;
+    background-size: 200px;
+
 }
 .navbar-menu a:hover{
     background-color: #fff;
