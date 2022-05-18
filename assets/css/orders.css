@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A4750;
+}
+.nav{
+    display: inline-block;
+    margin: 25px 50px 25px 0;
+    color: white;
+}
+.navbar h1 {
+    color: #FF8D29;
+    margin: 25px 40px 25px 50px;
+    font-size: 30px;
+}
+.nav button {
+    padding: 10px 30px 10px 30px;
+    background-color: #F6C90E;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+}
+.nav button:hover{
+    background-color: black;
+}
+.nav > a {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+}
+.nav a:hover{
+    color: #F6C90E;
+}
+.nav >button > a {
+    color: black;
+}
+.nav >button > a:hover{
+    color: #F6C90E;
+}
