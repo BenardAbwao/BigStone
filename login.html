@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
-    <link rel="stylesheet" href="login.css">
-    <script type="text/javascript" src="login.js"></script>
-    <script src="https://kit.fontawesome.com/99c7c9baf3.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log In</title>
+<link rel="stylesheet" href="login.css">
+<script type="text/javascript" src="login.js"></script>
+<script src="https://kit.fontawesome.com/99c7c9baf3.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h2>Create an account</h2>
+    <section class="navbar">
+        <h1>BigStone</h1>
+        <div class="nav">
+            <a href="home.html" target="_self">HOME</a></li>
+            <a>ORDER</a></li>
+            <a href="#footer" target="_self">CONTACT US</a></li>
+            <button class="button"><a href="login.html" target="_self">SIGN IN</a></button>
         </div>
-        <form class="form" id="form">
+    </section>
 
-            <div class="form-controls">
-                <label>Username</label>
-                <input type="text" placeholder="username" id="username">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exlamation-circle"></i>
-                
-            </div>
 
-            <div class="form-controls">
-                <label>Email Address</label>
-                <input type="email" placeholder="email@gmail.com" id="email">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exlamation-circle"></i>
-                
-                
-            </div>
-            <div class="form-controls">
-                <label>Password</label>
-                <input type="password" placeholder="password" id="password">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exlamation-circle"></i>
-                
-                
-            </div>
-            <div>
-                <label>
-                Verify password</label>
-            <input type="password " placeholder="verify pass" id="verify">
-            <i class="fas fa-check-circle"></i>
-            <i class="fas fa-exlamation-circle"></i>
-          
-            
-            <button class="submit">Submit details</button>
+
+
+<section class="container">
+    <h2>Create an account</h2>
+    <form class="form" id="form">
+         <div>
+        <div class="formControls">
+        <label>Username</label>
+        <input type="text" placeholder="username" id="username">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exlamation-circle"></i>
         </div>
+        
+        <div class="formControls">
+        <label>E.Address</label>
+        <input type="email" placeholder="email@gmail.com" id="email" required>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exlamation-circle"></i>
+        </div>
+        
+        <div class="formControls">
+        <label>Password</label>
+        <input type="password" placeholder="password" id="password" required>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exlamation-circle"></i>
+        </div>
+        <div>
+        <label>Verification </label>
+        <input type="password" placeholder="password" id="password2" required>
        
-
-
+        </div>
+        <button class="submit">Submit</button>
+        </div>
         </form>
-    </div>
-    
+</section>
+
+
+
 </body>
 </html>
