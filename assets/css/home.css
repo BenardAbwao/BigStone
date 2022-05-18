@@ -1,98 +1,116 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box 2px solid red;
 }
-body{
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-    background-position: center;
-    background-size: cover;
-}
-.container{
-    padding: 20px 50px;
+
+.navbar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background-color: #3A4750;
-    width: 100%;
 }
-.logo{
-    font-size: 35px;
-    color: #FF8D29;
-}
-.navbar-menu a{
-    color: white;
-    font-size: 13px;
-    font-family: 'Raleway' , sans-serif;
-    font-weight: 100;
-    padding: 12px 15px;
+.nav{
     display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
+    margin: 25px 50px 25px 0;
+    color: white;
 }
-.navbar-menu button{
-    background-color: #F6C90E;
-    font-size: larger;
-    background-size: 200px;
-
-}
-.navbar-menu a:hover{
-    background-color: #fff;
-    color: #000;
-}
-.description{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    padding: 0 70px;
-    width: 100%;
-    text-align: center;
-}
-.description h2{
+.navbar h1 {
+    color: #FF8D29;
+    margin: 25px 40px 25px 50px;
     font-size: 30px;
-    font-family: 'Great Vibes',sans-serif;
-    font-weight: 100;
-    color: #fff;
-    letter-spacing: 2px;
-    line-height: 50px;
 }
-.description h1{
-    font-size: 35px;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 70px;
-}
-.description h2{
-    font-size: 14px;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 100;
-    color: #fff;
-    letter-spacing: 2px;
-    line-height: 25px;
-    margin-bottom: 30px;
-}
-.description button{
-    font-size: 14px;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    color: #fff;
-    background: orange;
-    text-transform: uppercase;
-    padding: 12px 20px;
-    border: 1px #fff;
-    border-radius: 3px;
-    outline: none;
+.nav button {
+    padding: 10px 30px 10px 30px;
+    background-color: #F6C90E;
+    border: none;
     cursor: pointer;
-    margin-top: 40px;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+}
+.nav button:hover{
+    background-color: black;
+}
+.nav > a {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+}
+.nav a:hover{
+    color: #F6C90E;
+}
+.nav >button > a {
+    color: black;
+}
+.nav >button > a:hover{
+    color: #F6C90E;
+}
+
+.slider{
+    width: vmin;
+    position: absolute;
+    transform: translate();
+    top: ;
+    left: ;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+.images{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+img{
+    width: 100%;
+}
+
+
+.slider > .images img{
+    width: 25%;
+    height: 35%;
+    display: inline-block;
+    row-gap: 25px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+
+
+
+.about-Us {
+    display: flex;
+    margin-left: 150px;
+    background-color: #EDEDED;
+    margin-bottom: 40px;
+    margin-top: 400px;
+    margin-right: 250px;
+    
+}
+.about-Us >.more {
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 
 }
-.description button:hover{
-    color: #000;
+.about-Us > .more button {
+    margin-top: 10px;
+    justify-content: center;
+    font-size: larger;
+    background-color: #F6C90E;
+    text-align: center;
+    display: flex;
+}
+.about-Us >.more h2{
+    font-size: x-large;
+}
+.about-Us > .more >p{
+    font-size: large;
+    margin-top: 10px;
 }
 
+.footer {
+    background-color: #3A4750;
+    padding-bottom: 100px;
+}
