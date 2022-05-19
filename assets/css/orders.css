@@ -76,8 +76,8 @@
   gap: 80px;
   justify-content: center;
   padding: 20px 0 15px 0;
-  text-decoration: none;
-  list-style-type: none;
+  /* text-decoration: none;
+  list-style-type: none; */
 }
 .footer p {
   color: white;
