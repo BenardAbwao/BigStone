@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A4750;
+}
+.nav{
+    display: inline-block;
+    margin: 25px 50px 25px 0;
+    color: white;
+}
+
+
+.navbar h1 {
+    color: #FF8D29;
+    margin: 25px 40px 25px 50px;
+    font-size: 30px;
+}
+
+.nav button {
+    padding: 10px 30px 10px 30px;
+    background-color: #F6C90E;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+}
+.nav button:hover{
+    background-color: black;
+}
+
+.nav > a {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40px;
+    
+}
+.nav a:hover{
+    color: #F6C90E;
+}
+.nav >button > a {
+    color: black;
+}
+.nav >button > a:hover{
+    color: #F6C90E;
+}
+
+/* our designs */
+.allimages{
+    margin: 20px 50px 0 50px;
+}
+.allimages h2{
+    color:  #FF8D29;
+}
+.move{
+    margin-top: -100px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.space{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.allimages h3{
+    text-align: center;
+}
+.ourdesigns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+}
+.ourdesigns img{
+    width: 100%;
+    border-radius: 10px;
+    height: 60%;
+}
+/* materials */
+.materials{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.materials img{
+    width: 100%;
+    border-radius: 10px;
+    height: 60%;
+}
+
+/* machinery */
+.machinery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    object-fit: cover;
+}
+.machinery .machines img{
+    width: 100%;
+    border-radius: 10px;
+    height: 120%;
+}
+
+/* footer */
+.footer{
+    margin: 100px 50px 40px 50px ;
+    background-color: #3A4750;
+}
+.footer h3{
+    padding: 15px 0 15px 30px;
+    color: white;
+}
+.footer h3 span{
+    color: #FF8D29;
+}
+.iconfooter{
+    color: #FF8D29;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer hr{
+    border: none;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+}
+.footer ul {
+    display: flex;
+    color: white;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0 15px 0;
+}
+.footer p{
+    color: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
