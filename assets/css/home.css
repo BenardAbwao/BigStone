@@ -139,6 +139,8 @@
     gap: 80px;
     justify-content: center;
     padding: 20px 0 15px 0;
+    list-style: none;
+    text-decoration: none;
 }
 .footer h4{
     color: white;
