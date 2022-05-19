@@ -48,102 +48,110 @@
   color: #f6c90e;
 }
 
-.footer {
-  margin: 100px 50px 40px 50px;
-  background-color: #3a4750;
+.footer{
+    margin: 100px 50px 40px 50px ;
+    background-color: #3A4750;
 }
-.footer h3 {
-  padding: 15px 0 15px 30px;
-  color: white;
+.footer h3{
+    padding: 15px 0 15px 30px;
+    color: white;
 }
-.footer h3 span {
-  color: #ff8d29;
+.footer h3 span{
+    color: #FF8D29;
 }
-.iconfooter {
-  color: #ff8d29;
-  font-size: 30px;
-  padding: 20px 0 0 0;
-  display: flex;
-  justify-content: space-around;
+.iconfooter{
+    color: #FF8D29;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
 }
-.footer hr {
-  border: none;
-  border: 1px solid black;
+.footer hr{
+    border: none;
+    border: 1px solid black;
 }
 .footer ul {
-  display: flex;
-  color: white;
-  gap: 80px;
-  justify-content: center;
-  padding: 20px 0 15px 0;
-  /* text-decoration: none;
-  list-style-type: none; */
+    display: flex;
+    color: white;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0 15px 0;
 }
-.footer p {
-  color: white;
-  padding: 20px 0 15px 0;
+.footer p{
+    color: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+#orders{
+  margin: 20px 50px 0 50px;
+}
+#orders h2{
+  font-size: 30px;
+  margin: 10px;
+  color: #ff8d29;
+}
+.designs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 30px;
+}
+.designs img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
+}
+.purchase{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: #f6c90e;
+  margin: 10px 0 0 90px;
+}
+.designs p{
+  text-align: center;
+  padding: 5px;
+}
+.designs h3{
+  padding: 10px;
   text-align: center;
 }
-
-.imageEscavator > img {
-  width: 70%;
+.materials{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  width: 100%;
+  gap: 30px;
 }
-.imageCompactor > img {
-  width: 70%;
+.materials img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
 }
-.imageCrane > img{
-  width: 70%;
+.materials h3{
+  text-align: center;
+  padding: 10px;
 }
-.imageMixer > img{
-  width: 70%;
+.materials p{
+  text-align: center;
+  padding: 5px;
 }
 .machinery{
-  display: flex;
-  justify-content:space-evenly;
-  margin-left: 70px;
-}
-.houseDesigns{
   display: grid;
-  justify-content: space-evenly;
-  margin-left: 70px;
+  grid-template-columns: repeat(4 ,1fr);
+  width: 100%;
+  gap: 30px;
 }
- .imageDesign1 > img{
-  width: 70%;
-  height: 50%;
+.machinery img{
+  width: 100%;
+  border-radius: 15px;
+  height: 60%;
 }
-.imageDesign2 > img{
-  width: 70%;
-  height: 50%;
+.machinery h3{
+  text-align: center;
+  padding: 10px;
 }
-.imageDesign3 > img{
-  width: 70%;
-  height: 50%;
+.machinery p{
+  text-align: center;
+  padding: 5px;
 }
-.imageDesign4 > img{
-  width: 70%;
-  height: 50%;
-}
-.materials{
-  display: flex;
-}
-.imageCement > img{
-  width: 70%;
-}
-.imageFloorTiles > img{
-  width: 70%;
-}
-.imageHardwood > img{
-  width: 70%;
-}
-.imageRoofTiles > img{
-  width: 70%;
-}
-/* .materials > .cement{
-  width: 25%;
-}
-.materials > .roofingTiles{
-  width: 25%;
-} */
-
-
 
