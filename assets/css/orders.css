@@ -1,0 +1,101 @@
+/** @format */
+
+* {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3a4750;
+}
+.nav {
+  display: inline-block;
+  margin: 25px 50px 25px 0;
+  color: white;
+}
+.navbar h1 {
+  color: #ff8d29;
+  margin: 25px 40px 25px 50px;
+  font-size: 30px;
+}
+.nav button {
+  padding: 10px 30px 10px 30px;
+  background-color: #f6c90e;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 40px;
+}
+.nav button:hover {
+  background-color: black;
+}
+.nav > a {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 40px;
+}
+.nav a:hover {
+  color: #f6c90e;
+}
+.nav > button > a {
+  color: black;
+}
+.nav > button > a:hover {
+  color: #f6c90e;
+}
+
+.footer {
+  margin: 100px 50px 40px 50px;
+  background-color: #3a4750;
+}
+.footer h3 {
+  padding: 15px 0 15px 30px;
+  color: white;
+}
+.footer h3 span {
+  color: #ff8d29;
+}
+.iconfooter {
+  color: #ff8d29;
+  font-size: 30px;
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer hr {
+  border: none;
+  border: 1px solid black;
+}
+.footer ul {
+  display: flex;
+  color: white;
+  gap: 80px;
+  justify-content: center;
+  padding: 20px 0 15px 0;
+}
+.footer p {
+  color: white;
+  padding: 20px 0 15px 0;
+  text-align: center;
+}
+
+.imageEscavator > img {
+  width: 40%;
+}
+.imageCompactor > img {
+  width: 40%;
+}
+.imageDesign1 > img {
+  width: 40%;
+}
+.imageDesign2 > img {
+  width: 40%;
+}
+.imageDesign3 > img {
+  width: 40%;
+  height: 40%;
+}
+.imageCement > img {
+  width: 40%;
+}
