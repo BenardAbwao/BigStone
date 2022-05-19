@@ -57,10 +57,25 @@ body {
   text-align: center;
   border: 2px dashed #f6c90e;
   background-color: #f6c90e;
-
-  
-  width: 50vw;
-  margin: 100px 200px;
+  border-radius: 50px;
+  width: 30vw;
+  padding: 0 70px 70px 70px;
+  margin: 200px 600px;
+}
+.container h2{
+  padding-top: -500px;
+}
+#form{
+  padding-top: 40px;
+}
+.formControls{
+  padding-bottom: 20px;
+}
+#verif{
+  margin-right: 127px;
+}
+#verif input{
+  margin-left: 70px;
 }
 .formControls label {
   text-align: left;
@@ -68,8 +83,49 @@ body {
 }
 .formControls input {
   width: 50%;
+  margin-left: 20px;
 }
 section .container{
   border: 2px dashed #f6c90e;
 
 }
+.footer{
+    margin: 100px 50px 40px 50px ;
+    background-color: #3A4750;
+}
+.footer h3{
+    padding: 15px 0 15px 30px;
+    color: white;
+}
+.footer h3 span{
+    color: #FF8D29;
+}
+.iconfooter{
+    color: #FF8D29;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer hr{
+    border: none;
+    border: 1px solid black;
+    padding: 0%;
+    margin: 0%;
+}
+.footer ul {
+    display: flex;
+    color: white;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0 15px 0;
+}
+.footer p{
+    color: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+
+
+
+
