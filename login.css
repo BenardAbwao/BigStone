@@ -1,5 +1,7 @@
 * {
   text-decoration: none;
+  margin: 0;
+  padding: 0%;
 }
 body {
   background-color: white;
@@ -55,15 +57,17 @@ body {
 }
 .container {
   text-align: center;
-  border: 2px dashed #f6c90e;
-  background-color: #f6c90e;
-  border-radius: 50px;
-  width: 30vw;
-  padding: 0 70px 70px 70px;
-  margin: 200px 600px;
+    border: 2px dashed #F6C90E;
+    background-color: #F6C90E;
+    border-radius: 50px;
+    width: 30vw;
+    padding: 0 70px 70px 70px;
+    margin: 200px 600px;
+  
 }
 .container h2{
-  padding-top: -500px;
+  justify-content: center;
+  
 }
 #form{
   padding-top: 40px;
@@ -118,12 +122,14 @@ section .container{
     color: white;
     gap: 80px;
     justify-content: center;
+   list-style: none;
     padding: 20px 0 15px 0;
 }
 .footer p{
     color: white;
     padding: 20px 0 15px 0;
     text-align: center;
+    text-decoration: none;
 }
 
 
