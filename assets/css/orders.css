@@ -86,15 +86,6 @@
 .imageCompactor > img {
   width: 70%;
 }
-.imageDesign1 > img {
-  width: 70%;
-}
-.imageDesign2 > img {
-  width: 70%;
-}
-.imageDesign3 > img {
-  width: 70%;
-}
 .imageDesign4{
   width: 70%;
 }
@@ -115,7 +106,32 @@
 }
 .houseDesigns{
   display: flex;
-  justify-content:space-evenly;
-  margin-left: 70px
-
+  justify-content: space-evenly;
+  margin-left: 70px;
 }
+ .imageDesign1 > img{
+  width: 70%;
+  height: 50%;
+}
+.imageDesign2 > img{
+  width: 70%;
+  height: 50%;
+}
+.imageDesign3 > img{
+  width: 70%;
+  height: 50%;
+}
+.imageDesign4 > img{
+  width: 70%;
+  height: 50%;
+}
+
+/* .imageCement > img{
+  width: 70%;
+}
+.imageTiles > img{
+  width: 70%;
+} */
+
+
+
