@@ -81,21 +81,41 @@
 }
 
 .imageEscavator > img {
-  width: 40%;
+  width: 70%;
 }
 .imageCompactor > img {
-  width: 40%;
+  width: 70%;
 }
 .imageDesign1 > img {
-  width: 40%;
+  width: 70%;
 }
 .imageDesign2 > img {
-  width: 40%;
+  width: 70%;
 }
 .imageDesign3 > img {
-  width: 40%;
-  height: 40%;
+  width: 70%;
+}
+.imageDesign4{
+  width: 70%;
 }
 .imageCement > img {
-  width: 40%;
+  width: 70%;
+}
+.imageCrane > img{
+  width: 70%;
+}
+.imageMixer > img{
+  width: 70%;
+}
+.machinery{
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 70px
+
+}
+.houseDesigns{
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 70px
+
 }
