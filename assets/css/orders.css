@@ -1,7 +1,10 @@
 /** @format */
 
 * {
+  margin:0px;
+  padding: 0px;
   text-decoration: none;
+  overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -73,6 +76,8 @@
   gap: 80px;
   justify-content: center;
   padding: 20px 0 15px 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 .footer p {
   color: white;
@@ -86,12 +91,6 @@
 .imageCompactor > img {
   width: 70%;
 }
-.imageDesign4{
-  width: 70%;
-}
-.imageCement > img {
-  width: 70%;
-}
 .imageCrane > img{
   width: 70%;
 }
@@ -101,11 +100,10 @@
 .machinery{
   display: flex;
   justify-content:space-evenly;
-  margin-left: 70px
-
+  margin-left: 70px;
 }
 .houseDesigns{
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
   margin-left: 70px;
 }
@@ -125,12 +123,26 @@
   width: 70%;
   height: 50%;
 }
-
-/* .imageCement > img{
+.materials{
+  display: flex;
+}
+.imageCement > img{
   width: 70%;
 }
-.imageTiles > img{
+.imageFloorTiles > img{
   width: 70%;
+}
+.imageHardwood > img{
+  width: 70%;
+}
+.imageRoofTiles > img{
+  width: 70%;
+}
+/* .materials > .cement{
+  width: 25%;
+}
+.materials > .roofingTiles{
+  width: 25%;
 } */
 
 
