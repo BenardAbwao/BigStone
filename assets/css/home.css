@@ -49,19 +49,16 @@
 
 .container > .row {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: center;
     margin-top: 10px;
+
 }
 .banner {
     position: relative;
-    width: 90%;
     margin: 0 auto;
 }
 .banner img{
-    width: 100%;
+    justify-content: center;
 }
 .container > .row > .banner h2 {
     color: yellow;
