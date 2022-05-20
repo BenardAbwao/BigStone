@@ -70,10 +70,9 @@
     color: yellow;
     align-items: center;
 }
-.heading, p {
+.container > .banner >.heading, p {
     color: black;
     font-size: medium;
-    color: black;
 
     text-shadow: 5px 5px 10px #FFFF;
 }
@@ -121,9 +120,10 @@
     font-size: 40px;
     padding: 40px 0 40px 0;
 }
-.more p{
+.about us >.more p{
     font-size: 25px;
     line-height: 50px;
+    color: black;
     
 }
 
