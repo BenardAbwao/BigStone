@@ -1,5 +1,8 @@
 # BIG STONE
  ## By Benard Abwao, Charity Wanjiku, Allan Lenkaa & Alex Thiga
+ ## Screenshot
+ ![image](./assets/images/home.png)
+ ![image](./assets/images/Sevices.png)
 
  ## Table of Content
  - [Description](#description)
