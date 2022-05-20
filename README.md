@@ -1,5 +1,8 @@
 # BIG STONE
  ## By Benard Abwao, Charity Wanjiku, Allan Lenkaa & Alex Thiga
+ ## Screenshot
+ ![image](./assets/images/home.png)
+ ![image](./assets/images/Sevices.png)
 
  ## Table of Content
  - [Description](#description)
@@ -37,6 +40,10 @@ As a user of the application,you will be able to :
 
 ### Live Link
 - Click this link to view the live application https://BenardAbwao.github.io/BigStone/
+
+## Figma Links
+- Click this link to view the design in figma https://www.figma.com/file/DjAKD8JHJkvFn9K887NNsG/Home-page?node-id=0%3A1
+- Click this link to view the design in figma https://www.figma.com/file/IzBUioXKPkixM5HQDIE5Zq/Sevices
 ### Technology  Used
 * HTML - which was used to develop the structure of the pages.
 * CSS - which was used to style the User Interface.
