@@ -1,4 +1,4 @@
-function buy()
+function check()
 {
     var c = 0;
     var purchase1 = document.orders.purchase1.value;
@@ -10,14 +10,26 @@ function buy()
     var purchase5 = document.orders.purchase7.value;
     var purchase5 = document.orders.purchase7.value;
     var purchase5 = document.orders.purchase7.value;
-    var orders = document.getElementById( 'orders' );
-    var items = document.getElementByName( 'purchasze1' );
-    var items = document.getElementByName( 'purchasze2' );
-    var items = document.getElementByName( 'purchasze3' );
-    var items = document.getElementByName( 'purchasze4' );
-    var items = document.getElementByName( 'purchasze5' );
-    var items = document.getElementByName( 'purchasze6' );
-    var items = document.getElementByName( 'purchasze7' );
-    var items = document.getElementByName( 'purchasze7' );
-    var items = document.getElementByName( 'purchasze7' );
+
+    var total = c++;
+    var items = document.getElementByName( 'purchase1' );
+    var items = document.getElementByName( 'purchase2' );
+    var items = document.getElementByName( 'purchase3' );
+    var items = document.getElementByName( 'purchase4' );
+    var items = document.getElementByName( 'purchase5' );
+    var items = document.getElementByName( 'purchase6' );
+    var items = document.getElementByName( 'purchase7' );
+    var items = document.getElementByName( 'purchase7' );
+    var items = document.getElementByName( 'purchase7' )
+    var items = document.getElementByName( "purchase8" );
+    var items = document.getElementByName( "purchase9" );
+    var items = document.getElementByName( "purchase10" );
+    var items = document.getElementByName( "purchase11" );
+    
+    if(purchase=="click") {c++}
+    
+    var total=c++;
+  
+
+    //document.write(c);
 }
