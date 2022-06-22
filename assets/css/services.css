@@ -76,44 +76,70 @@
     text-align: center;
 }
 .ourdesigns{
-    width: 100%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    
+    height: 50%;
 }
 .ourdesigns img{
-    width: 100%;
     border-radius: 10px;
-    height: 60%;
+    width: 400px;
+    height: 100%;
 }
 /* materials */
+.british{
+    margin: 0px 50px 0 50px;
+    margin-top: 150px;
+}
+
+.british h2{
+    color:  #FF8D29;
+}
 .materials{
-    width: 100%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    height: 50%;
 }
 .materials img{
-    width: 100%;
     border-radius: 10px;
-    height: 60%;
+    width: 400px;
+    height: 100%;
+}
+/* machinery */
+.america{
+    margin: 0px 50px 0 50px;
+    margin-top: 150px;
 }
 
-/* machinery */
-.machinery {
-    width: 100%;
+.america h2{
+    color:  #FF8D29;
+    padding-bottom: 20px;
+}
+.machinery{
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    object-fit: cover;
+    height: 50%;
 }
-.machinery .machines img{
-    width: 100%;
+.machinery img{
     border-radius: 10px;
-    height: 120%;
+    width: 400px;
+    height: 100%;
 }
-
+#range{
+    margin-top: -30px;
+}
+#range img{
+    width: 400px;
+    height: 108%;
+}
+#range h3{
+    margin-top: -29px;
+}
 /* footer */
 .footer{
     margin: 100px 50px 40px 50px ;
